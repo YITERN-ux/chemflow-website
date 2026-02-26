@@ -778,14 +778,21 @@ h6 {
     left: -20px;
 }
 
+.nav-logo,
+.footer-logo {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
 .stage-label {
     font-size: 0.8rem;
     font-weight: 500;
-    color: var(--accent-secondary);
+    color: var(--accent-primary);
     text-transform: uppercase;
-    letter-spacing: 2px;
-    display: block;
+    letter-spacing: 0.05em;
     margin-bottom: 0.5rem;
+    display: block;
 }
 
 .timeline-content h3 {
